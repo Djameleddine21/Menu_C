@@ -256,6 +256,22 @@ int wherey()
         return coninfo.dwCursorPosition.Y;
 }
 
+void entete_menu()
+{
+    system("cls");
+    printf("\t\t");
+    color(15,1);
+    printf("-----------------------------------------------------------------------\n");
+    color(0,0);
+    printf("\t\t");
+    color(15,1);
+    printf("|                 Realise par : SEBBAGH DJAMEL EDDINE                 |\n");
+    color(0,0);
+    printf("\t\t");
+    color(15,1);
+    printf("-----------------------------------------------------------------------\n\n\n");
+}
+
 int afficher(int i) //concerne affichage de menu
 {
     color(0,0);
@@ -348,21 +364,7 @@ void menu() {
         }
     }
 }
-void entete_menu()
-{
-    system("cls");
-    printf("\t\t");
-    color(15,1);
-    printf("-----------------------------------------------------------------------\n");
-    color(0,0);
-    printf("\t\t");
-    color(15,1);
-    printf("|                 Realise par : SEBBAGH DJAMEL EDDINE     |\n");
-    color(0,0);
-    printf("\t\t");
-    color(15,1);
-    printf("-----------------------------------------------------------------------\n\n\n");
-}
+
 int main()
 {
     menu();

@@ -294,7 +294,7 @@ int afficher(int i) //concerne affichage de menu
 }
 void menu() {
     int sauv=1,stop=0;
-    system("title TP SFSD ");
+    system("title Menu");
     system("mode con LINES=40 COLS=110");
     system("color F0");
     esi(35,5,8,0,10);
